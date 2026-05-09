@@ -33,5 +33,5 @@ steps:
       - 'us-east1-docker.pkg.dev/my-project-3-495504/dockeregistry-emcnoso/myimage/myapp:$BUILD_ID'
       
 images:
-  - 'us-east1-docker.pkg.dev/openwriteup/cicd/myapp:$BUILD_ID'
+  - 'us-east1-docker.pkg.dev/my-project-3-495504/dockeregistry-emcnoso/myimage/myapp:$BUILD_ID'
 logsBucket: "gs://lab9-exer2-log-archive-emcnoso"
